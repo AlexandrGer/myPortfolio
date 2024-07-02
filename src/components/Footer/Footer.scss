@@ -1,0 +1,16 @@
+.footer {
+  width: 100%;
+  max-width: 1420px;
+  box-sizing: border-box;
+  padding: 0 70px;
+  padding: 60px 0 30px;
+  display: flex;
+  justify-content: end;
+}
+
+.footer__copyright {
+  font-weight: 400;
+  font-size: 14px;
+  color: #7a736b;
+  margin: 0;
+}

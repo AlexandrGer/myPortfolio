@@ -1,0 +1,30 @@
+.about {
+  width: 100%;
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.about__title {
+  font-weight: 400;
+  font-size: 22px;
+  color: #7a736b;
+  margin: 0;
+
+  span {
+    color: #ff8f00;
+    text-shadow: 1px 1px 2px #000, 0 0 1em #ff8f00;
+  }
+}
+
+.about__text {
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 21px;
+  color: #ffffffdb;
+  text-indent: 10px;
+  text-align: justify;
+}
