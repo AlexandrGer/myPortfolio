@@ -3,6 +3,7 @@ import Footer from "../Footer/Footer";
 import Header from "../Header/Header";
 import Main from "../Main/Main";
 import Projects from "../Projects/Projects";
+import ProjectPage from "../ProjectPage/ProjectPage";
 import Social from "../Social/Social";
 import "./App.scss";
 
@@ -14,6 +15,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Main />} />
           <Route path="/projects" element={<Projects />} />
+          <Route path="/projects/:id" element={<ProjectPage />} />
         </Routes>
       </main>
       <Footer />

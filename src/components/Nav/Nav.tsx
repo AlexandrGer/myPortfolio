@@ -1,4 +1,5 @@
 import { NavLink } from "react-router-dom";
+import resume from "../../images/Резюме.pdf";
 import "./Nav.scss";
 
 export default function Nav() {
@@ -12,7 +13,7 @@ export default function Nav() {
           <NavLink to="/projects">Проекты</NavLink>
         </li>
         <li>
-          <a href={"s"} target="blank">
+          <a href={resume} target="blank">
             Резюме
           </a>
         </li>
