@@ -6,11 +6,13 @@ import Projects from "../Projects/Projects";
 import ProjectPage from "../ProjectPage/ProjectPage";
 import Social from "../Social/Social";
 import "./App.scss";
+import ParticlesContainer from "../Particles/Particles";
 
 function App() {
   return (
     <div className="page">
       <Header />
+      <ParticlesContainer />
       <main className="main">
         <Routes>
           <Route path="/" element={<Main />} />
