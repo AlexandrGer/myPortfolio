@@ -5,9 +5,9 @@ export default function Promo() {
   return (
     <section className="promo">
       <div className="promo__wrapper">
-        <h1 className="promo__title">Ну привет, сталкер!</h1>
+        <h1 className="promo__title">Привет, дорогой друг!</h1>
         <p className="promo__subtitle">
-          Меня зовут Александр, я <span>{`< frontend-разработчик / >`}</span>
+          Меня зовут Александр и я <span>{`< frontend-разработчик / >`}</span>
         </p>
       </div>
       <img src={photo} alt="myPhoto" className="photo" />
