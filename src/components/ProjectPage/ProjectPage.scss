@@ -1,0 +1,24 @@
+.projectPage {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  margin: 0;
+  text-align: center;
+}
+
+// .img {
+//   width: 300px;
+//   height: 400px;
+// }
+
+.text {
+}
+
+.links {
+  a {
+    color: #fff;
+    font-weight: 500;
+  }
+}
