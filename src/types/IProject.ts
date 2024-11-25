@@ -3,6 +3,7 @@ export interface IProject {
   cover: string;
   title: string;
   shortDescription: string;
+  projectPage: boolean;
   description: string;
   websiteUrl: string;
   githubUrl: string;

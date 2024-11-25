@@ -22,6 +22,7 @@ export const MoviesExsplorer = {
   title: "Movies Exsplorer",
   shortDescription:
     "Регистрируйтесь, ищите фильмы и сохраняйте их в избранное.",
+  projectPage: false,
   description: "",
   websiteUrl: "",
   githubUrl: "https://github.com/AlexandrGer/movies-explorer-frontend",

@@ -30,9 +30,11 @@ export default function Project({ item }: Props) {
               </li>
             ))}
           </ul>
-          <Link to={`/projects/${item.id}`} className="project__link">
-            Подробнее о проекте &#8594;
-          </Link>
+          {item.projectPage && (
+            <Link to={`/projects/${item.id}`} className="project__link">
+              Подробнее о проекте &#8594;
+            </Link>
+          )}
         </div>
       </div>
     </>

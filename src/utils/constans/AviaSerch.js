@@ -17,6 +17,7 @@ export const AviaSerch = {
   cover: cover,
   title: "Avia Serch",
   shortDescription: "Не Авиасейлс, но тоже можно найти дешевый авиабилет",
+  projectPage: false,
   description: "",
   websiteUrl: "https://alexandrger.github.io/avia-search/",
   githubUrl: "https://github.com/AlexandrGer/avia-search",

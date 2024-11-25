@@ -20,6 +20,7 @@ export const CatsInfo = {
   title: "Cats Info",
   shortDescription:
     "Случайные картинки и факты о кошках. Понравился факт? Cохраняйте карточку в избранное.",
+  projectPage: false,
   description: "",
   websiteUrl: "https://alexandrger.github.io/cats-info/",
   githubUrl: "https://github.com/AlexandrGer/cats-info",
