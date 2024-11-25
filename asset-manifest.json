@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/myPortfolio/static/css/main.534239ec.css",
-    "main.js": "/myPortfolio/static/js/main.0da664ea.js",
+    "main.css": "/myPortfolio/static/css/main.ce6592de.css",
+    "main.js": "/myPortfolio/static/js/main.277d4a0d.js",
     "static/js/453.acca0757.chunk.js": "/myPortfolio/static/js/453.acca0757.chunk.js",
-    "static/media/photo.jpg": "/myPortfolio/static/media/photo.affe5ed13e630b1205e1.jpg",
     "static/media/Резюме.pdf": "/myPortfolio/static/media/Резюме.a77a4620430774a34a27.pdf",
     "static/media/img-1.png": "/myPortfolio/static/media/img-1.00803dc4261de54d5fe7.png",
     "static/media/img-4.png": "/myPortfolio/static/media/img-4.854c88a3cb37709b6403.png",
     "static/media/img-3.png": "/myPortfolio/static/media/img-3.83dc25084f33c06f528d.png",
     "static/media/img-2.png": "/myPortfolio/static/media/img-2.5c24efacf028d3ef124e.png",
     "static/media/cover.png": "/myPortfolio/static/media/cover.b3bebb7b0b61a8553907.png",
+    "static/media/photo1.jpg": "/myPortfolio/static/media/photo1.02f1502f2454e4539012.jpg",
     "static/media/React.svg": "/myPortfolio/static/media/React.e7574af26628c8d8cc52d64e015eb898.svg",
     "static/media/codewars.svg": "/myPortfolio/static/media/codewars.9c05d00acc8c01a6a2bac00aa8a359cb.svg",
     "static/media/Express.svg": "/myPortfolio/static/media/Express.d91c10260d4508bc68149fc0bf48c1c0.svg",
@@ -27,13 +27,13 @@
     "static/media/Figma.svg": "/myPortfolio/static/media/Figma.44ca2c329ade686d78f62ad73790c621.svg",
     "static/media/CSS.svg": "/myPortfolio/static/media/CSS.3ec320225ef851ed26cf9fd1c6ebaa54.svg",
     "static/media/HTML.svg": "/myPortfolio/static/media/HTML.c1bb84e022ca9d76984d4b943bd678fd.svg",
-    "static/media/arrow-prev.svg": "/myPortfolio/static/media/arrow-prev.f462569b7cc8cb3cb7b2.svg",
-    "main.534239ec.css.map": "/myPortfolio/static/css/main.534239ec.css.map",
-    "main.0da664ea.js.map": "/myPortfolio/static/js/main.0da664ea.js.map",
+    "static/media/arrow-prev.svg": "/myPortfolio/static/media/arrow-prev.7be5f892198bade43de5.svg",
+    "main.ce6592de.css.map": "/myPortfolio/static/css/main.ce6592de.css.map",
+    "main.277d4a0d.js.map": "/myPortfolio/static/js/main.277d4a0d.js.map",
     "453.acca0757.chunk.js.map": "/myPortfolio/static/js/453.acca0757.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.534239ec.css",
-    "static/js/main.0da664ea.js"
+    "static/css/main.ce6592de.css",
+    "static/js/main.277d4a0d.js"
   ]
 }
