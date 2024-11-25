@@ -19,7 +19,7 @@ export const CatsInfo = {
   cover: cover,
   title: "Cats Info",
   shortDescription:
-    "Случайные картинки и факты о кошках. Понравился факт сохраняйте карточку в избранное.",
+    "Случайные картинки и факты о кошках. Понравился факт? Cохраняйте карточку в избранное.",
   description: "",
   websiteUrl: "https://alexandrger.github.io/cats-info/",
   githubUrl: "https://github.com/AlexandrGer/cats-info",

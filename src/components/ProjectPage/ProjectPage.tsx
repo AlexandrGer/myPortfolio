@@ -22,45 +22,45 @@ export default function ProjectPage() {
   return (
     <>
       {activeProject && (
-        <div className="projectPage">
+        <div className="project-page">
           <h1 className="title">{activeProject.title}</h1>
-          {activeProject.imageList ? (
-            <div>
-              {activeProject.imageList.length ? (
-                activeProject.imageList.length > 1 ? (
-                  <AlbumPhotos
-                    items={activeProject.imageList.map((el) => el.imageName)}
-                  />
-                ) : (
+          {activeProject.imageList && (
+            <>
+              {activeProject.imageList && activeProject.imageList.length > 1 ? (
+                <AlbumPhotos
+                  items={activeProject.imageList.map((el) => el.imageName)}
+                />
+              ) : (
+                <div className="wrapper">
                   <img
                     src={activeProject.imageList[0].imageName}
-                    alt=""
+                    alt={activeProject.imageList[0].imageName}
                     className="img"
                   />
-                )
-              ) : (
-                ""
+                </div>
               )}
-            </div>
-          ) : (
-            false
+            </>
           )}
-          <p
-            className="text"
-            dangerouslySetInnerHTML={{
-              __html: prepareToHtml(activeProject.description),
-            }}
-          ></p>
+          {activeProject.description && (
+            <p
+              className="description"
+              dangerouslySetInnerHTML={{
+                __html: prepareToHtml(activeProject.description),
+              }}
+            ></p>
+          )}
           <p className="links">
-            Хочешь взгялнуть на код? Не проблема, нажми{" "}
+            Хочешь взгялнуть на код?
+            <br /> Не проблема, нажми&nbsp;
             <a href={activeProject.githubUrl} target="blank">
               тут
-            </a>{" "}
-            и попадешь на страницу GitHub'a где можешь ознакомиться с кодом
-            поближе. А если ты хочешь посмотреть на страницу в действии, то
-            переходи вот по этой{" "}
+            </a>
+            &nbsp;и попадешь на страницу GitHub'a, где можешь ознакомиться с
+            кодом поближе.
+            <br /> А если ты хочешь посмотреть на страницу в действии, то
+            переходи вот по этой&nbsp;
             <a href={activeProject.websiteUrl} target="blank">
-              ссылке.{" "}
+              ссылке.
             </a>
           </p>
         </div>

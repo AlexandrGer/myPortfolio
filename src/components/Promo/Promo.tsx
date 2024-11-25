@@ -1,4 +1,5 @@
-import photo from "../../images/photo.jpg";
+// import photo from "../../images/photo.jpg";
+import photo from "../../images/photo1.jpg";
 import "./Promo.scss";
 
 export default function Promo() {
